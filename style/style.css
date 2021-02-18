@@ -1,0 +1,31 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #36393F;
+}
+
+ul {
+    background-color: #313339;
+    color: #dcddde;
+}
+
+li.node {
+    font-size: 18px;
+    font-family: Arial;
+    padding: 10px 8px 10px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+}
+
+li.node::marker {
+    font-size: 28px;
+    color: #fae199;
+}
+
+li.node.online::marker{
+    color: rgb(83, 182, 172);
+}
+
+li.node.offline::marker{
+    color: rgb(234, 83, 101);
+}
